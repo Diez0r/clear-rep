@@ -1,0 +1,60 @@
+{
+  "breakpoints": {
+    "xs": 320,
+    "mb": 414,
+    "sm": 768,
+    "md": 1024,
+    "lg": 1280,
+    "xl": 1680,
+    "xxl": 1920
+  },
+  "columns": {
+    "xs": 2,
+    "mb": 2,
+    "sm": 4,
+    "md": 6,
+    "lg": 6,
+    "xl": 6,
+    "xxl": 6
+  },
+  "gutters": {
+    "xs": 0,
+    "mb": 0,
+    "sm": 16,
+    "md": 16,
+    "lg": 17,
+    "xl": 20,
+    "xxl": 20
+  },
+  "offsets": {
+    "xs": 8,
+    "mb": 10,
+    "sm": 30,
+    "md": 30,
+    "lg": 30,
+    "xl": 40,
+    "xxl": 40
+  },
+  "queries":  {
+    "xs": "(max-width: 767px)",
+    "mb": "(min-width: 414px) and (max-width: 767px)",
+    "sm": "(min-width: 768px) and (max-width: 1023px)",
+    "md": "(min-width: 1024px) and (max-width: 1279px)",
+    "lg": "(min-width: 1280px) and (max-width: 1679px)",
+    "xl": "(min-width: 1680px) and (max-width: 1919px)",
+    "xxl": "(min-width: 1920px)",
+
+    "lt-mb": "(max-width: 413px)",
+    "lt-sm": "(max-width: 767px)",
+    "lt-md": "(max-width: 1023px)",
+    "lt-lg": "(max-width: 1279px)",
+    "lt-xl": "(max-width: 1679px)",
+
+    "gt-sm": "(min-width: 768px)",
+    "gt-md": "(min-width: 1024px)",
+    "gt-lg": "(min-width: 1280px)",
+    "gt-xl": "(min-width: 1680px)",
+    "gt-xxl": "(min-width: 1920px)"
+  },
+  "containerMaxWidth": false
+}

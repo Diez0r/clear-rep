@@ -1,0 +1,62 @@
+// @import './tools'
+
+.fade-enter
+.fade-leave-to
+  opacity 0
+  // transform translate3d(0, 10px, 0)
+
+.fade-enter-active
+.fade-leave-active
+  transition all 0.3s ease-in-out
+
+.fade-move-enter
+.fade-move-leave-to
+  opacity 0
+  transform translate3d(0, 10px, 0)
+
+.fade-move-enter-active
+.fade-move-leave-active
+  transition all 0.3s ease-in-out
+
+.push-enter
+.push-leave-to
+  transform translate3d(0, -100%, 0)
+
+.push-enter-active
+.push-leave-active
+  transition all 0.3s ease-in-out
+
+.extra-column-enter
+.extra-column-leave-to
+  transform translate3d(100%,0, 0)
+
+.extra-column-enter-active
+.extra-column-leave-active
+  transition all 0.6s ease-in-out
+
+.push-right-enter
+.push-right-leave-to
+  transform translate3d(-100%,0, 0)
+
+.push-right-enter-active
+.push-right-leave-active
+  transition all 0.6s ease-in-out
+
+.translate-enter
+  transform translate3d(0, -40px,0)
+.translate-leave-to
+  transform translate3d(0,-40px,0)
+
+.translate-enter-active
+  transition all 0.7s cubic-bezier(.86,.21,.33,.92) !important
+.translate-leave-active
+  transition all 0.7s cubic-bezier(.56,.21,.93,.45) !important
+
+.bodymovin-enter
+.bodymovin-leave-to
+  opacity 0
+  // transform translate3d(0, 10px, 0)
+
+.bodymovin-enter-active
+.bodymovin-leave-active
+  transition all 4s ease-in-out

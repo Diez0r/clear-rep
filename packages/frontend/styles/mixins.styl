@@ -1,0 +1,33 @@
+@import './variables'
+@import './fonts.styl'
+
+debug()
+  background-color rgba(red, 0.33) !important
+
+outlineDebug()
+  outline 3px solid rgba(red, 0.33) !important
+
+ghost()
+  content ''
+  position absolute
+  top 0
+  right 0
+  bottom 0
+  left 0
+
+hover()
+  &:hover
+    html.desktop &
+      {block}
+
+// fontRouble()
+//   font-family 'Rouble', sans-serif, Arial
+//   font-weight 400
+
+// fontGolosRegular()
+//   font-family 'Golos', sans-serif, Arial
+//   font-weight 400
+
+// fontGolosMedium()
+//   font-family 'Golos', sans-serif, Arial
+//   font-weight 500
